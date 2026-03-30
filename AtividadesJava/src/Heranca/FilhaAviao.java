@@ -6,7 +6,7 @@ public class FilhaAviao extends PaiVeiculo {
     public FilhaAviao() {}
 
     public FilhaAviao(String marca, String modelo, float velocidade, float altitudeMax) {
-        super(marca, modelo, velocidade); // Chama o construtor da classe Veiculo
+        super(marca, modelo, velocidade);
         this.altitudeMax = altitudeMax;
     }
 
